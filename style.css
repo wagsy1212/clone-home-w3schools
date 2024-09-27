@@ -8,7 +8,7 @@
 .nav-bar {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 16px;
     background-color: white;
 }
 
@@ -27,6 +27,7 @@
 
 .logo-top-navbar img {
     width: 100%;
+    cursor: pointer;
 }
 
 .items-top-navbar {
@@ -44,6 +45,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.items-top-navbar li span {
+    margin-right: 5px;
+}
+
+.items-top-navbar li .icon {
+    color: purple;
+    margin-right: 5px;
+    font-size: 13px;
 }
 
 .items-top-navbar .item:hover {
@@ -51,11 +63,32 @@
     background-color: #059862;
 }
 
+.search-nav-bar {
+    position: relative;
+}
+
 .search-nav-bar input {
     padding: 20px;
     width: 200px;
     height: 10px;
     border-radius: 40px;
+    border: 1px solid #c3c3c3;
+}
+
+.search-nav-bar i {
+    position: absolute;
+    right: 0px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.search-nav-bar i:hover {
+    background-color: #e7e4e4;
+    cursor: pointer;
 }
 
 .btn-nav-bar {
@@ -78,6 +111,7 @@
     background-color: #059862;
     color: white;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .btn-login {
@@ -108,6 +142,7 @@
     align-items: center;
     justify-content: center;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .bottom-nav-bar li:hover {
@@ -145,13 +180,35 @@
     font-weight: 600;
 }
 
+.search-hero-section {
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
 .search-hero-section input {
     border: none;
     outline: none;
     width: 600px;
     height: 50px;
-    border-radius: 50px;
     padding: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-hero-section i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #04AA6D;
+    width: 100px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border-radius: 0 50px 50px 0; */
 }
 
 .container a {
@@ -203,6 +260,7 @@
     align-items: center;
     border-radius: 50px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .left-side .learn {
@@ -256,6 +314,7 @@
     align-items: center;
     border-radius: 50px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* html */
@@ -347,6 +406,7 @@
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .card .jquery {
