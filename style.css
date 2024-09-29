@@ -4,11 +4,15 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* navbar section */
 .nav-bar {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 14px;
     background-color: white;
 }
 
@@ -595,4 +599,622 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.my-learning-section {
+    background-color: #D9EEE1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-learning-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left-side {
+    width: 700px;
+    height: 700px;
+}
+
+.container .left-side img {
+    width: 100%;
+}
+
+.container .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.container .right-side h1 {
+    font-size: 60px;
+}
+
+.container .right-side p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* plus user section */
+.plus-user-section {
+    background-color: #282A35;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-user-section .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.plus-user-section .container h1 {
+    font-size: 60px;
+}
+
+.plus-user-section .container p {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -15px;
+    color: #FFC0C7;
+}
+
+.plus-user-section .container ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 120px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plus-user-section .container ul li {
+    padding-bottom: 10px;
+}
+
+.plus-user-section .container ul li i {
+    margin-right: 10px;
+}
+
+.plus-user-section .btn {
+    width: 300px;
+    margin: auto;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* color picker section */
+.color-picker-section {
+    background-color: #F3ECEA;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-picker-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.color-picker-section .container h1 {
+    font-size: 60px;
+}
+
+.color-picker-section .container p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* teachers section */
+.teachers-section {
+    background-color: #282A35;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers-section .container .left-side {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.teachers-section .left-side h1 {
+    font-size: 60px;
+}
+
+.teachers-section .left-side p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.teachers-section .left-side ul {
+    list-style: none;
+    text-align: left;
+    font-size: 22px;
+}
+
+.teachers-section .left-side ul li {
+    padding-top: 10px;
+}
+
+.teachers-section .left-side ul li i {
+    padding-right: 10px;
+}
+
+.teachers-section .left-side a {
+    background-color: #04AA6D;
+}
+
+.teachers-section .container .right-side {
+    width: 500px;
+    height: 500px;
+}
+
+.teachers-section .right-side img {
+    width: 100%;
+    margin-left: -100px;
+}
+
+/* code game section */
+.code-game-section {
+    background-color: #96D4D4;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Freckle Face", sans-serif;
+}
+
+.code-game-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.code-game-section h1 {
+    font-size: 55px;
+}
+
+.code-game-section p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -25px;
+}
+
+.code-game-section a {
+    font-family: sans-serif;
+    background-color: #282A35;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-section {
+    background-color: #282A35;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skills-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills-section h1 {
+    font-size: 60px;
+}
+
+.skills-section p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.skills-section .btn-group {
+    display: flex;
+    gap: 100px;
+}
+
+.skills-section .btn {
+    width: 600px;
+    height: 200px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-section .btn-right {
+    background-color: #FFF4A3;
+    color: black;
+}
+
+/* templates section */
+.templates-section {
+    background-color: #E7E9EB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.templates-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.templates-section h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.templates-section p {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.templates-section p span {
+    font-weight: 700;
+}
+
+.templates-section .image {
+    width: 60%;
+    height: 50%;
+}
+
+.templates-section .image img {
+    width: 100%;
+}
+
+.templates-section a {
+    width: 40%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #282A35;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* kickstart section */
+.kickstart-section {
+    background-color: #282A35;
+    height: 70vh;
+    display: flex;
+}
+
+.kickstart-section .container {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.kickstart-section h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFC0C7;
+}
+
+.kickstart-section p {
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFC0C7;
+    margin-top: 60px;
+}
+
+.kickstart-section a {
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kickstart-section .logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: -170px;
+    transform: rotate(10deg);
+}
+
+.kickstart-section .logo svg:first-child {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 170px;
+    bottom: 30px;
+}
+
+/* how to section */
+.how-to-section {
+    background-color: #FFFFFF;
+    height: 130vh;
+}
+
+.how-to-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.how-to-section h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.how-to-section p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.how-to-section .second-p {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+/* Slideshow container */
+.slideshow {
+    padding: 50px 10px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #F1F1F1;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.how-to-section .empty {
+    width: 50px;
+    height: 100px;
+    background-color: #282A35;
+    margin-top: -30px;
+}
+
+.how-to-section .btn {
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+/* footer-section */
+.footer-section {
+    height: 120vh;
+    background-image: url('images/lynx_landing.webp'), url('images/background_in_space.webp');
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center center;
+    padding: 50px 100px;
+}
+
+.footer-section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .top-footer {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-section .logo-footer {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-section .logo-footer img {
+    width: 100%;
+}
+
+.footer-section .top-footer a {
+    color: #FFF4A3;
+    text-decoration: none;
+}
+
+.footer-section .top-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .mid-footer {
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.footer-section .tutorials,
+.footer-section .references,
+.footer-section .examples,
+.footer-section .certified {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .mid-footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #DDDDDD;
+}
+
+.footer-section .mid-footer a {
+    color: #DDDDDD;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-section .mid-footer a:hover {
+    color: #FFF4A3;
+}
+
+.footer-section .bottom-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    color: #DDDDDD;
+}
+
+.bottom-footer .socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.bottom-footer .socials a {
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bottom-footer p {
+    font-size: 12px;
+}
+
+.bottom-footer p a {
+    color: #DDDDDD;
+    font-size: 12px;
+}
+
+.bottom-footer .socials a:hover,
+.bottom-footer p a:hover {
+    color: #FFF4A3;
 }
